@@ -15,4 +15,4 @@ const fName = faker.name.findName();
 const fEmail = faker.internet.email();
 console.log(`isim: ${fName}`);
 console.log(`mail: ${fEmail}`);
-//faker kullanımını çözemedim henüz
+//faker kullanımını tamamlamadım henüz
