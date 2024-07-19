@@ -1,5 +1,5 @@
 //Loops
-//while loop
+//while loop:
 let myNumber = 0;
 while(myNumber<50){    
   //  console.log(myNumber)
@@ -8,7 +8,7 @@ while(myNumber<50){
  }
  //dont create an endless loop
 
- //do while loop
+ //do while loop:
 let myNumber2 = 50;
 while(myNumber < 50){ 
     myNumber += 2    
@@ -20,7 +20,7 @@ while(myNumber < 50){
    /**while ve do while loopları arasındaki en önemli fark, "do while" loop ta condition (gereklilik) 
  uyuşmasa bile, do bloğu en az bir kere execute edilecek olmasıdır.*/
 
- //for loop
+ //for loop:
  for(let i = 0; i <= 10; i++){
     console.log(i )
  }
