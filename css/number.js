@@ -38,4 +38,3 @@ console.log(Number.parseFloat("4.4456dcf")) //4.4456
 console.log(Number.parseFloat("4.4456dcf").toFixed(3)) //4.445
 console.log(Number.parseFloat("4.4456dcf").toFixed(3).toString())
 console.log(Number.isNaN(myString))//true
-
