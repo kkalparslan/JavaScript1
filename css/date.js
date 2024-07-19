@@ -1,5 +1,3 @@
-
-
 // Bugünün tarihini al
 const today = new Date();
 const day = String(today.getDate()).padStart(2, '0'); // Günü iki haneli olarak al
