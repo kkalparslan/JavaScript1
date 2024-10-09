@@ -47,5 +47,5 @@ if(customerIsBanned){
     reply = "Sorry, we are out of soup";
 }
 console.log(reply); 
-//sonuç olarak yukarıdan aşağıya doğru conditionları kontrol ederek geliyor. doğru gördüğü bloğu 
-//yazdırıyor
+//sonuç olarak yukarıdan aşağıya doğru conditionları kontrol ederek geliyor. 
+//doğru gördüğü bloğu yazdırıyor. standart if kullanımı.
