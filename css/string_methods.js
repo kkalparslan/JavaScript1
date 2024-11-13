@@ -18,4 +18,4 @@ const myVariable = "Alparslan";
 // döndürür. Ayrıca bir method içinde argümana ihtiyacı yoktur.
 
 //console.log(myVariable.includes("ce")) false
-//console.log(myVariable.includes("lan")) true bu method boolean değer döndürür 
+//console.log(myVariable.includes("lan")) true bu method boolean değer döndürür.
