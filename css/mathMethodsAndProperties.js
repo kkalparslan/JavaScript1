@@ -13,5 +13,6 @@ console.log(Math.floor(Math.random() * 10) +1)
 console.log(Math.floor(Math.random() * 10) +1)
 console.log(Math.floor(Math.random() * 10) +1)
 console.log(Math.floor(Math.random() * 10) +1) //bu kod bloğu 1 ile 10 arasında bir tam sayı üretir. kodun
-//sonundaki +1 olmaz ise 0 ile 9 arasında bir sayı üretir. Math.floor elde edilen sayıyı aşağıya yuvarladığı için
+//sonundaki +1 olmaz ise 0 ile 9 arasında bir sayı üretir. Math.floor elde edilen sayıyı aşağıya yuvarladığı 
+//için
 console.log(Math.floor(3.9))

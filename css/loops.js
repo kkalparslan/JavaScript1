@@ -6,7 +6,7 @@ while(myNumber<50){
     //myNumber = myNumber + 1 daha kısa olarak yazabiliriz aşağıda  
     myNumber+= 2  
  }
- //dont create an endless loop
+ //dont create an endless loop. be carefull
 
  //do while loop:
 let myNumber2 = 50;
