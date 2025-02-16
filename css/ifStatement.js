@@ -37,15 +37,15 @@ let customerIsBanned = false; //Here's your order of chicken noodle soup & crake
 let soup = "chicken noodle soup";
 let crakers = false; //Here's your order of chicken noodle soup
 let reply;
-if(customerIsBanned){
+if (customerIsBanned) {
     reply = "No soup for you!";
-}else if (soup && crakers) {
-    reply = `Here's your order of ${soup} & crakers`; 
-}else if (soup) {
-    reply = `Here's your order of ${soup}`;    
-}else{
+} else if (soup && crakers) {
+    reply = `Here's your order of ${soup} & crakers`;
+} else if (soup) {
+    reply = `Here's your order of ${soup}`;
+} else {
     reply = "Sorry, we are out of soup";
 }
-console.log(reply); 
-//sonuç olarak yukarıdan aşağıya doğru conditionları kontrol ederek geliyor. 
+console.log(reply);
+//sonuç olarak yukarıdan aşağıya doğru conditionları kontrol ederek geliyor.
 //doğru gördüğü bloğu yazdırıyor. standart if kullanımı.

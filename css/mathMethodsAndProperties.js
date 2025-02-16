@@ -9,10 +9,10 @@ console.log(Math.random())
 console.log(Math.random())
 console.log(Math.random())
 console.log(Math.random()) //sürekli 0 ile 1 arasında bir rakam döndürüyor
-console.log(Math.floor(Math.random() * 10) +1)
-console.log(Math.floor(Math.random() * 10) +1)
-console.log(Math.floor(Math.random() * 10) +1)
-console.log(Math.floor(Math.random() * 10) +1) //bu kod bloğu 1 ile 10 arasında bir tam sayı üretir. kodun
+console.log(Math.floor(Math.random() * 10) + 1)
+console.log(Math.floor(Math.random() * 10) + 1)
+console.log(Math.floor(Math.random() * 10) + 1)
+console.log(Math.floor(Math.random() * 10) + 1) //bu kod bloğu 1 ile 10 arasında bir tam sayı üretir. kodun
 //sonundaki +1 olmaz ise 0 ile 9 arasında bir sayı üretir. Math.floor elde edilen sayıyı aşağıya yuvarladığı 
 //için
 console.log(Math.floor(3.9))
