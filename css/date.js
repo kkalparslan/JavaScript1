@@ -1,5 +1,5 @@
 
-// Bugünün tarihini al
+// Bugünün tarihini alan kod
 const today = new Date();
 const day = String(today.getDate()).padStart(2, '0'); // Günü iki haneli olarak al
 const month = String(today.getMonth() + 1).padStart(2, '0'); // Ayı iki haneli olarak al
@@ -14,4 +14,4 @@ const fName = faker.name.findName();
 const fEmail = faker.internet.email();
 console.log(`isim: ${fName}`);
 console.log(`mail: ${fEmail}`);
-//faker kullanımını tamamlamadım henüz
+//faker class kullanımını tamamlamadım henüz
