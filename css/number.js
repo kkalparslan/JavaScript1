@@ -13,23 +13,23 @@ console.log(myFloat_2)
 console.log(myNumber === myFloat_2)
 const myString = "44";
 console.log(myNumber === myString)
-console.log(myString+9) // <449>
-console.log(9+myString) // <944> string bulaşıcılığı bildiğimiz gibi. 
-console.log(myString) 
+console.log(myString + 9) // <449>
+console.log(9 + myString) // <944> string bulaşıcılığı bildiğimiz gibi. 
+console.log(myString)
 console.log(Number(myString)) // 44 bu defa string gibi değil int bir değer gibi sarı yazdırıyor.
-console.log(Number(myString)+9) // 53 int değer olduğu için artık normal toplama yapıyor.
+console.log(Number(myString) + 9) // 53 int değer olduğu için artık normal toplama yapıyor.
 console.log(Number(myString) === myNumber) // true artık iki int değeri karşılaştırıyor ve true dönüyor 
 console.log(Number.isInteger(myString)) //false içine konulan parametrenin integer olup olmadığını 
-                                        //kontrol eder ve boolean değer döner.
+//kontrol eder ve boolean değer döner.
 console.log(Number.isInteger(myNumber)) //true
 console.log(Number.parseFloat(myFloat)) //44
 console.log(Number.parseFloat(myFloat_2)) //44.01
 const myFloat_3 = 44.01234
 console.log(Number.parseFloat(myFloat_3).toFixed(4)) //44.0123 this method limits a floating point number
-                                                    //to the number of decimals you provide as a parameter.
+//to the number of decimals you provide as a parameter.
 console.log(myFloat_2.toFixed(2)); // also rounds up if removing trailing decimals.
 console.log(Number.parseInt(myString))//removes non-numeric characters and converts other data types of 
-                                        //the number data type                                                 
+//the number data type                                                 
 console.log(myFloat.toString()) //44.01
 console.log(typeof myFloat.toString()) //string
 console.log(typeof Number.parseFloat(myString)) //number
